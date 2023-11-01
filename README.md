@@ -1,10 +1,31 @@
-### Welcome to my projects and portfolio page! 🤓
+## Data Engineering Portfolio
+Welcome to my Data Engineering Portfolio page! Be sure to also check my [Data Science and Machine Learning Projects]()
 
-Before diving into the projects, here is a summary of the tools used in the projects executed as I become a better Data Scientist
-The projects will explore various aspects of data science with an increasing focus on Machine Learning:
-1. SQL projects - include data querying, manipulation and working with RDBMSs using SQLite, MySQL or PostgreSQL. The choice of language depends on the connection to databse available whether its cloud services (SSH keys), reading large CSV files or working from the terminal.
-2. EDA and Data Analysis- these skills are imbued in most projects and showcase Data visualization, data cleaning and tidying skills along with exploring variable relationships and presenting summary statistics using Numpy, Pandas, Matplotlib and Seaborn as key tools.
-3. ML projects will have a heavy focus in building algorithms and implementing Machine learning and Deep learning models like Regressions, SVM's and Neural networks
+## Projects
+
+### Bike Rental Management ([writeup]())
+A relational database with analytics-ready views connecting Citi Bike and public weather datasets. The project involves:
+
+- Inspecting and cleaning both datasets
+- Developing a relational database structure
+- Implementing the database in PostgreSQL and inserting the dataset
+- Developing flexible analytics-ready views on top of the relational database
+
+### Subscrciber Cancellation Pipeline ([writeup]())
+A semi-automated bash+python pipeline to regularly transform a messy SQLite database into a clean source of truth for an analytics team. The pipeline
+
+- Performs unit tests to confirm data validity
+- Writes human-readable errors to an error log
+- Automatically checks and updates changelogs
+- Updates a production database with new clean data
+
+### NoSQL Cloud Deployment ([writeup]())
+A project to deploy the output of subscriber-pipeline to a MongoDB database on DigitalOcean Cloud. The project includes
+
+- Creating a new MongoDB instance on DigitalOcean
+- Connecting to the cloud MongoDB using MongoDB Compass
+- Uploading the clean dataset as a NoSQL Collection
+- Validating the final dataset
 
 ------
-Let the data-wars begin! ⚔️
+Let the data-wars ensue! ⚔️ ⚔️
